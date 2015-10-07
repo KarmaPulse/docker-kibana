@@ -15,3 +15,5 @@ RUN rm /kibana.tar.gz
 VOLUME $KIBANA_PATH/config/
 
 EXPOSE 5601
+
+ENTRYPOINT ["kibana"]
